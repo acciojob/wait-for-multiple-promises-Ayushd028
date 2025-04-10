@@ -1,6 +1,7 @@
 const tbody = document.getElementById("output");
 
 const loadingRow = document.createElement("tr");
+loadingRow.id = "loading";
 loadingRow.innerHTML = `<td colspan="2">Loading...</td>`;
 tbody.appendChild(loadingRow);
 
